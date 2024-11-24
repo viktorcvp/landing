@@ -5,6 +5,7 @@
   }
 
 body{
+    background: #020a18;
     
      
         font-family: "Open Sans", sans-serif;
@@ -19,8 +20,7 @@ body{
       }
 
 .top{
-    background-color: #333237;
-    backdrop-filter: blur200px;
+    
     padding-bottom: 99px;
     
 
