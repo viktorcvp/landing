@@ -8,9 +8,9 @@ body{
     background: #020a18;
     
      
-        font-family: "Open Sans", sans-serif;
-        font-weight: 600;
-  font-style: normal;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
   
       }
       .center{
@@ -32,15 +32,19 @@ body{
 .list{
     display: flex;
     justify-content: center;
-    text-decoration: none;
-    list-style-type: none;
     padding-top: 39px;
     padding-bottom: 39px;
     gap: 128px;
     
 }
 .header-link{
-    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;
+    text-align: left;
+    text-decoration: none;
+    list-style-type: none;
+color: #fff;
 }
 .top-content{
     display: flex;
@@ -52,63 +56,78 @@ body{
 .top-info{
     margin-right: 128px;
 }
+
 .text{
-    
     color: #fff;
     margin-bottom: 10px;
     font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-align: left;
+
+
 }
 .title{
     font-family: "Open Sans", serif;
-  font-weight: 800;
-  font-style: normal;
-  font-size: 55px;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 55px;
+    line-height: 71.5px;
+    text-align: left;
     color: #fff;
     margin-bottom: 40px;
 }
+
 .sub-title{
     color: #fff;
     margin-bottom: 50px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-align: left;
 }
+
 .top-buttons {
-   display: flex;
+    display: flex;
     justify-content: center;
     gap: 20px;
-  }
+}
 
 .button-start{
-    font-family: "Open Sans", serif;
+    font-family: Open Sans;
+    font-size: 20px;
     font-weight: 600;
-    font-style: normal;
     color: #fff;
     background-color: #3a68b8;
     max-width: 171;
-max-height: 57px;
-padding: 15px 30px;
-border-radius: 5px;
+    max-height: 57px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    line-height: 27.24px;
+    text-align: left;
 
 }
 
 .button-video{
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Open Sans", serif;
-    font-weight: 600;
-    font-style: normal;
     color: #fff;
     background-color: #3a68b8;
-    width: 217px;
-    height: 57px;
+    max-width: 217px;
+    max-height: 57px;
     padding: 10px 30px;
     border-radius: 5px;
-
-    
+    line-height: 27.24px;
+    text-align: left;
 
 }
-.button-video svg{
-    color: #000;
-}
+
+
 .top-logos{
     display: flex;
     background-color: #333237;
