@@ -6,8 +6,6 @@
 
 body{
     background: #020a18;
-    
-     
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -20,6 +18,7 @@ body{
       }
 
 .top{
+    flex-wrap: wrap;
     
     padding-bottom: 99px;
     
@@ -31,6 +30,7 @@ body{
 
 .list{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding-top: 39px;
     padding-bottom: 39px;
@@ -58,7 +58,7 @@ color: #fff;
 }
 
 .text{
-    color: #fff;
+    color: #3868b8;
     margin-bottom: 10px;
     font-size: 18px;
     font-weight: 600;
@@ -111,7 +111,7 @@ color: #fff;
 
 .button-video{
     font-family: Open Sans;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     display: flex;
     justify-content: center;
@@ -124,12 +124,16 @@ color: #fff;
     border-radius: 5px;
     line-height: 27.24px;
     text-align: left;
+    gap: 10px;
 
 }
 
 
+
 .top-logos{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background-color: #333237;
     justify-content: space-between;
     gap: 10px;
