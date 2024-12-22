@@ -54,6 +54,8 @@ color: #fff;
     
 }
 .top-info{
+    display: flex;
+    flex-direction: column ;
     margin-right: 128px;
 }
 
@@ -64,6 +66,7 @@ color: #fff;
     font-weight: 600;
     line-height: 28.8px;
     text-align: left;
+    
 
 
 }
@@ -76,6 +79,7 @@ color: #fff;
     text-align: left;
     color: #fff;
     margin-bottom: 40px;
+    
 }
 
 .sub-title{
@@ -86,6 +90,7 @@ color: #fff;
     font-weight: 600;
     line-height: 28.8px;
     text-align: left;
+
 }
 
 .top-buttons {
@@ -95,12 +100,14 @@ color: #fff;
 }
 
 .button-start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: Open Sans;
     font-size: 20px;
     font-weight: 600;
     color: #fff;
     background-color: #3a68b8;
-    max-width: 171;
     max-height: 57px;
     padding: 15px 30px;
     border-radius: 5px;
@@ -118,7 +125,6 @@ color: #fff;
     align-items: center;
     color: #fff;
     background-color: #3a68b8;
-    max-width: 217px;
     max-height: 57px;
     padding: 10px 30px;
     border-radius: 5px;
@@ -138,4 +144,59 @@ color: #fff;
     justify-content: space-between;
     gap: 10px;
     
+}
+.item{
+    background: #132035;
+    border-radius: 10px;
+    padding: 30px;
+}
+.heading{
+    color:#FFF;
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31.25px;
+    text-align: center;
+    
+
+
+}
+.item_text{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25.6px;
+    text-align: center;
+    color: #fff;
+
+}
+.content{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 362px);
+    justify-content: center;
+    padding-top: 264px;
+    margin-bottom: 243px;
+
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.item_big{
+    grid-column: span 2;
+    grid-row: span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+}
+@media (max-width:1024px){
+    .content{
+        display:flex;
+        flex-direction:column;
+    }
+
 }
